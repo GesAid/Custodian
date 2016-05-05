@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/m_anketa"
+            android:icon="@drawable/ico_anketa"
+            android:title="@string/m_anketa" />
+        <item
+            android:id="@+id/m_add"
+            android:icon="@drawable/ico_add"
+            android:title="@string/m_add" />
+        <item
+            android:id="@+id/m_graph"
+            android:icon="@drawable/ico_graph"
+            android:title="@string/m_graph" />
+         <item
+            android:id="@+id/m_list"
+            android:icon="@drawable/ico_list"
+            android:title="@string/m_list" />
+         <item
+            android:id="@+id/m_export"
+            android:icon="@drawable/ico_export"
+            android:title="@string/m_export" />
+        <item
+            android:id="@+id/m_information"
+            android:icon="@drawable/ico_information"
+            android:title="@string/m_info" />
+        <item
+            android:id="@+id/m_exit"
+            android:icon="@drawable/ico_exit"
+            android:title="@string/m_exit" />
+    </group>
+</menu>

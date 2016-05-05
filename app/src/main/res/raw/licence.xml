@@ -1,0 +1,26 @@
+<notices>
+    <notice>
+        <name>AChartEngine</name>
+        <url>https://github.com/ddanny/achartengine</url>
+        <copyright />
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>LicensesDialog</name>
+        <url>https://github.com/PSDev/LicensesDialog</url>
+        <copyright>Copyright 2013 Philip Schiffer</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+     <notice>
+        <name>CircleImageView</name>
+        <url>https://github.com/hdodenhof/CircleImageView</url>
+        <copyright>Copyright 2014 - 2015 Henning Dodenhof</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>CircleImageView</name>
+        <url>https://github.com/hdodenhof/CircleImageView</url>
+        <copyright>Copyright 2014 - 2015 Henning Dodenhof</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+</notices>
