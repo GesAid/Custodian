@@ -46,10 +46,9 @@ public class MainActivity extends AppCompatActivity {
         mDrawer.addDrawerListener(drawerToggle);
         nvDrawer = (NavigationView) findViewById(R.id.nvView);
         setupDrawerContent(nvDrawer);
-        FrameLayout fm = (FrameLayout) findViewById(R.id.flContent);
-        ImageView img = new ImageView(this);
-        img.setImageResource(R.drawable.caduceus);
-        fm.addView(img);
+
+        startActivityF();
+
     }
     private ActionBarDrawerToggle setupDrawerToggle() {
         return new ActionBarDrawerToggle(this, mDrawer, toolbar, R.string.drawer_open,  R.string.drawer_close);
@@ -85,6 +84,24 @@ public class MainActivity extends AppCompatActivity {
                         return true;
                     }
                 });
+    }
+
+    public void startActivityF(){
+        Fragment fragment = null;
+        Class fragmentClass;
+        fragmentClass = AnketaFrag.class;
+        try {
+            fragment = (Fragment) fragmentClass.newInstance();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
+         // Highlight the selected item has been done by NavigationView
+        // Set action bar title
+        setTitle(R.string.m_anketa);
     }
 
     public void selectDrawerItem(MenuItem menuItem) {

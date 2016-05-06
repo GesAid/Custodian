@@ -26,12 +26,8 @@ import org.apache.poi.ss.usermodel.IndexedColors;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
-
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -41,7 +37,6 @@ import java.util.Locale;
 
 import ru.itx.kumov.custodian.CustodianDB;
 import ru.itx.kumov.custodian.R;
-import ru.itx.kumov.custodian.ui.MainActivity;
 
 /**
  * Created by kumov on 29.04.16.
