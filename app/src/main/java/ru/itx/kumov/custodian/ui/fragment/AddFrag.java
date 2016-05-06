@@ -53,6 +53,8 @@ public class AddFrag extends Fragment implements View.OnClickListener{
         String status = "норма";
         String value = et_value.getText().toString() + "";
         String comment = et_comment.getText().toString() + "";
+        if (comment != "")
+            comment = "no comment";
         Calendar calendar = Calendar.getInstance();
         long date = calendar.getTime().getTime();
         if (value != "") {
